@@ -3,8 +3,8 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
-import MainNavbar from "./components/mainNavbar";
-  import Index from "./pages";
+
+  import Index from "./pages/Portfólio";
   import Page1 from "./pages/Page1";
   import Page2 from "./pages/Page2";
   
