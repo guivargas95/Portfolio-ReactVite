@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        padrao: ['Edu NSW ACT Foundation', 'cursive'],
+        padrao: ['Pacifico', 'cursive'],
         logo: ['Caveat', 'cursive'],
         logo2: ['Pacifico', 'cursive']
       }
