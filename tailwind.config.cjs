@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        padrao: ['Edu NSW ACT Foundation', 'cursive'],
+        padrao: ['Ibarra Real Nova', 'serif'],
         logo: ['Caveat', 'cursive'],
         logo2: ['Pacifico', 'cursive']
       }
