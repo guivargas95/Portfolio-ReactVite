@@ -19,7 +19,7 @@ export default function BioPhotos() {
     
     
     return(
-        <div className="flex flex-col w-auto lg:w-64 lg:ml-5">
+        <div className="flex flex-col w-auto lg:w-64 lg:ml-5 md:mt-5">
             <figure className="flex justify-center w-auto mt-2">
             <img className="border-4  max-w-xs max-h-80  " src={listaFotos[numFoto]} alt="" />
             </figure>
