@@ -14,6 +14,9 @@ module.exports = {
           azul4: '#0D2647',
           cinza: '#8299b0',
         },
+        noticia: {
+          vermelho: '#c4170c',
+        }
       },
       fontFamily: {
         padrao: ['Ibarra Real Nova', 'serif'],

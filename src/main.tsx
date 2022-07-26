@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import App from './App'
-import Page1 from "./pages/Page1";
+import Noticias from './pages/Noticias';
 import Page2 from "./pages/Page2";
 import './reset.css'
 
@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="page1" element={<Page1 />} />
+        <Route path="noticias" element={<Noticias />} />
         <Route path="page2" element={<Page2 />} />
       </Routes>
     </BrowserRouter>

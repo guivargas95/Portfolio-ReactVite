@@ -1,3 +1,12 @@
+import NoticiasNavbar from "../../components/Noticias/noticiasNavbar";
+
 export default function Noticias() {
-    <div>1</div>
+    return(
+
+        <div>
+            <NoticiasNavbar />
+        </div>
+
+    )
+    
 }
