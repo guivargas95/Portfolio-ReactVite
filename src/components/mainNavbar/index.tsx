@@ -5,8 +5,8 @@ export default function MainNavbar() {
         <a className="flex justify-center ml-3 font-logo2 lg:ml-20" href="#">Guilherme Vargas</a>
         <ul className="flex lg:mr-20 w-auto">
           <li className="ml-3 hover:font-bold lg:ml-10"><button className="hover:underline"><a href="#">About Me</a></button></li>
-          <li className="ml-3 hover:font-bold lg:ml-10"><button className="hover:underline"><a href="#">Skills</a></button></li>
-          <li className="ml-3 hover:font-bold lg:ml-10"><button className="hover:underline"><a href="#">Projects</a></button></li>
+          <li className="hidden ml-3 hover:font-bold lg:ml-10"><button className="hover:underline"><a href="#">Skills</a></button></li>
+          <li className="hidden ml-3 hover:font-bold lg:ml-10"><button className="hover:underline"><a href="#">Projects</a></button></li>
         </ul>
       </header>
     </div>

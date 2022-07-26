@@ -4,7 +4,7 @@ export default function BioInfo() {
 
     const [numTexto, setNumTexto] = useState(1)
 
-    const textos = ['ENUSLorem ipsum dolor, sit amet consectetur adipisicing elit. Iste sunt rem eveniet iusto, dolorem voluptates. Voluptatibus adipisci, quas quibusdam aliquid quae at, sequi et dolor nulla alias incidunt doloremque voluptas.',
+    const textos = ['Guilherme Vargas, web app developer, loves technology, essentially curious, musician and gamer in his free time. Discovering how some things work helped guide his personal and professional development. A pixel moving on a screen, the sound of strings forming notes on a musical instrument aroused curiosities that shaped his personality and interests. Now, he looks for challenges that accelerate his development and encourage the constant search for knowledge.',
         'Guilherme Vargas, desenvolvedor de aplicações web, apaixonado por tecnologia, curioso nato, músico e gamer nas horas vagas. Descobrir como certas coisas funcionam serviram como guia para o seu desenvolvimento pessoal e profissional. Um simples pixel movendo-se em uma tela, o soar das cordas formando notas em um instrumento musical despertaram curiosidades que ajudaram a moldar sua personalidade e interesses. Hoje, procura por desafios que acelerem seu desenvolvimento e incentivem a busca constante por novos conhecimentos.']
 
     function TextoEnUs() {
