@@ -25,9 +25,9 @@ export default function BioInfo() {
             </div>
             <p className="w-96 h-auto font-padrao p-1 border-4 border-paleta-cinza text-center rounded-lg lg:w-4/3">{textos[numTexto]}</p>
             <ul className="flex justify-center mt-5 mb-5 md:w-96 md:justify-around">
-                <li><a href="#"><img src="../src/assets/icons/linkedin.png" className="w-16 md:w-20 p-1" alt="Linkedin" /></a></li>
-                <li><a href="#"><img src="../src/assets/icons/github.png" className="w-16 md:w-20 p-1" alt="Github" /></a></li>
-                <li><a href="#"><img src="../src/assets/icons/instagram.png" className="w-16 md:w-20 p-1" alt="Instagram" /></a></li>
+                <li><a href="#"><img src="../public/assets/icons/linkedin.png" className="w-16 md:w-20 p-1" alt="Linkedin" /></a></li>
+                <li><a href="#"><img src="../public/assets/icons/github.png" className="w-16 md:w-20 p-1" alt="Github" /></a></li>
+                <li><a href="#"><img src="../public/assets/icons/instagram.png" className="w-16 md:w-20 p-1" alt="Instagram" /></a></li>
             </ul>
         </div>
     )
