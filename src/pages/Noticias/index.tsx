@@ -1,3 +1,4 @@
+import Destaques from "../../components/Noticias/destaques";
 import NoticiasNavbar from "../../components/Noticias/noticiasNavbar";
 
 export default function Noticias() {
@@ -5,6 +6,7 @@ export default function Noticias() {
 
         <div>
             <NoticiasNavbar />
+            <Destaques />
         </div>
 
     )
