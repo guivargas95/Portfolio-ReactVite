@@ -5,17 +5,17 @@ export default function Destaques() {
         <section className="w-auto mt-5 text-white flex flex-col md:grid md:grid-cols-2">
             <div className="flex-col relative">
                 <p className="absolute left-1/2 bottom-0 mb-5">asd</p>
-                <img className="md:h-full" src="/assets/noticias/imagens/tec.jpg" alt="" />
+                <img className="rounded-sm border border-black md:h-full" src="/assets/noticias/imagens/tec.jpg" alt="" />
             </div>
             <div className="md:grid md:grid-cols-1 md:ml-2">
                 <ul>
                     <li className="relative mt-2 md:mt-0">
                         <p className="absolute left-1/2 bottom-0 mb-5">asd</p>
-                        <img src="/assets/noticias/imagens/tec.jpg" alt="" />
+                        <img className="rounded-sm border border-black " src="/assets/noticias/imagens/tec.jpg" alt="" />
                     </li>
                     <li className="relative mt-2">
                         <p className="absolute left-1/2 bottom-0 mb-5">asd</p>
-                        <img src="/assets/noticias/imagens/tec.jpg" alt="" />
+                        <img className="rounded-sm border border-black " src="/assets/noticias/imagens/tec.jpg" alt="" />
                     </li>
                 </ul>
             </div>
