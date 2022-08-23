@@ -12,10 +12,10 @@ export default function GithubRepositories() {
                 <ul className="w-80 md:w-96 grid lg:grid-cols-2 lg:w-auto">
                     {repositories?.map(repo => {
                         return (
-                            <li className="text-paleta-cinza p-3 border-4 border-paleta-cinza rounded-lg mt-4 flex-col text-center lg:w-96 lg:ml-2 lg:mr-2" key={repo.name}>
-                                <h3 className="text-lg font-bold">{repo.name}</h3>
+                            <li className="text-paleta-cinza p-3 border-2 border-paleta-cinza rounded-lg mt-4 flex-col text-center lg:w-96 lg:ml-2 lg:mr-2" key={repo.name}>
+                                <h3 className="text-lg font-bold text-white">{repo.name}</h3>
                                 <p className="">{repo.description}</p>
-                                <a target="_blank" href={repo.html_url}><button className="p-2 mt-2 mb-2 bg-yellow-200">Vem ver!</button></a>
+                                <a target="_blank" href={repo.html_url}><button className="text-black hover:font-bold p-2 mt-2 mb-2 bg-yellow-100 hover:bg-yellow-300">Vem ver!</button></a>
                             </li>
                         )
                     })}
