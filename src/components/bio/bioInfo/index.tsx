@@ -28,6 +28,7 @@ export default function BioInfo() {
                 <li><a href="https://www.linkedin.com/in/guivargas95/" target="_blank"><img src="/assets/icons/linkedin.png" className="w-16 md:w-20 p-1" alt="Linkedin" /></a></li>
                 <li><a href="https://github.com/guivargas95" target="_blank"><img src="/assets/icons/github.png" className="w-16 md:w-20 p-1" alt="Github" /></a></li>
                 <li><a href="https://www.instagram.com/guii.vargas/" target="_blank"><img src="/assets/icons/instagram.png" className="w-16 md:w-20 p-1" alt="Instagram" /></a></li>
+                <li><a href="https://wa.me/5541992295513" target="_blank"><img src="/assets/icons/wp.png" className="w-16 md:w-20 p-1" alt="WhatsAPP" /></a></li>
             </ul>
         </div>
     )
